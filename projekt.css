@@ -1,0 +1,90 @@
+<style>
+#color{
+    background-color: #0535a3;
+}
+ body {
+		background-color: rgba(248, 251, 252, 0.103);
+		z-index: 1;
+		background-position: center;
+		background-size: 1100px 1500px;
+		color: rgb(17, 17, 17);
+		text-align: justify;
+} 
+
+
+#title {
+		text-align: center;
+        
+		color: rgb(15, 2, 2);
+		font-size: 250%;
+		text-transform: capitalize;
+}
+#description {
+		text-align: center;
+
+		color: rgb(26, 3, 3);
+		font-style: sans-serif;
+		font-size: 130%;
+}
+#survey-form {
+		background-color: #0535a3;
+		background-position: relative;
+		margin: 0 auto;
+		width: 70%;
+		padding: 1em;
+		opacity: 0.7;
+}
+.scrollable {
+		 height: 500px;
+		 overflow-y: scroll;
+}
+label {
+		height: 50px;
+		align-items: center;
+		font-size: 20px;
+		margin-bottom: 50px;
+}
+.form-control {
+		font-size: 15px;
+		font-family: sans-serif,monospace;
+		width: 98%;
+		padding: 8px;
+		border-radius: 7px;
+		position: center;
+} 
+.form-group {
+		margin:0 auto 1.25rem auto;
+		padding:0.25rem;
+		font-size: 20px;
+}
+#dropdown {
+		font-size:15px;
+		font-family:sans-serif,monospace;
+		width:100%;
+		margin:0px 0px 0px 5px;
+		padding:8px;
+		border-radius:7px;
+}
+#text {
+		margin:0 auto 1.25rem auto;
+		padding:10px;
+		font-size: 20px;
+}
+#coments {
+		min-height:120px;
+		width: 100%;
+		position: center;
+		padding: 7px;
+	}
+
+.submit-button {
+		background-color: green;
+		width:100%;
+		display: block;
+		padding: 15px;
+		cursor: pointer;
+		position: center;
+		margin: 0 auto 1.25rem auto;
+		font-size: 20px;
+}
+</style>

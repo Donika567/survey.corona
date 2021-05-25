@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="projekt.css">
+    <title>Coronavirus</title>
+</head>
+<body id="color">
+    
+    <h1 id="title">Questionnaire</h1>
+  <p id="description">Thank you for taking the time</p>
+  <form id="survey-form" class="scrollable">
+      <div class="form"  >
+      <br> 
+          <label id="name-label" for="name">Name</label>
+      <br>
+      <input class="form-control" type="text" id ="name" name="name" placeholder="Enter your name" required >
+          <br>
+          <label id="email-label" for="email" value="email">Email</label>
+      <br>
+      <input class="form-control" type="Email" name="email" id="email" placeholder="Enter your email" required>
+          <br>
+      <label id="number-label" for="number" value="number">Age</label>
+      <br>
+          <input class="form-control" type="number" name="age" id="number" min="10" max="100"  placeholder="Age">
+          <br>
+          <p>Please choose one of the following answers that best reflects how your life has been affected by countermeasures aganist the coronavirus and ther related factors?</p>
+    <label><p>No impact on my life:</p> 
+          <select  id="dropdown">
+              <option value="cn">I am unconcerned about the growing infections.</option>
+              <option value="un">am concerned about the growing infections but they have no effect on my life.</option>
+              <option value="im">I am aware of the emergency situation, but my life has not really changed</option>
+              <option value="prefer">Prefer not to say</option>
+          <option value="other">Other</option>
+          </select>
+      </label>
+      <br>
+    <label>
+      <p> Partially following restrictions? </p> 
+      
+        <input name="definitely"type="radio"value="definitely">I have been partially following restrictions while attemting to adapt my lifestyle. 
+        <br> 
+        <input name="maybe" type="radio" value="maybe">I have been partially following restrictions and have gotten to adapting my lifestyle.
+        <br> 
+        <input name="not sure"type="radio"value="not sure">I have fully followed restrictions and have gotten to adapting my lifestyle.
+    </label> 
+    
+      <label> 
+      <p>	Have you been experiencing any of the known symptoms (as per healthcare dept. guidelines) related to the virus in the past seven days?</p>
+            <select id="dropdown">
+              <option disabled="" value="">Select an option</option>
+          <br>
+              <option value="challenges">Yes</option>option value="1">1</option>
+          <br>
+              <option value="projects">No</option>
+          <br>
+              <option value="comunity">Not sure</option>
+          
+    
+            </select>
+      </label>
+    </div>
+      <div class="form-group">
+      <p>	Which of the following would bother you if you are required to follow it at the office? (Select all that apply)</p>
+        <label>
+          <input  value="front-end-projects" type="checkbox" class="input-checkbox">Routine taking of temperature at check-in and check-out
+        </label>
+        <br>
+        <label>
+          <input  value="back-end-projects" type="checkbox" class="input-checkbox">Getting a vaccine
+        </label>
+        <br>
+        <label>
+          <input value="data-visualization" type="checkbox" class="input-checkbox">Clean desk policy
+        </label>
+        <br>
+        <label>
+          <input  value="challenges" type="checkbox" class="input-checkbox">Wearing a mask while working
+        </label>
+        <br>
+        <label>
+          <input value="open-source-community" type="checkbox" class="input-checkbox">Limiting the number of employees in a single shift or day
+        </label>
+        <br>
+        <label>
+          <input  value="gitter-help-rooms" type="checkbox" class="input-checkbox">Installing a contract tracing app
+        </label>
+        <br>
+        <label>
+          <input  value="videos" type="checkbox" class="input-checkbox">Desk partitions
+        </label>
+        <br>
+        <label>
+          <input  value="city-meetups" type="checkbox" class="input-checkbox">Office environment sanitization
+        </label>
+        <br>
+        <label>
+          <input  value="wiki" type="checkbox" class="input-checkbox">Bringing your own meals
+        </label>
+        <br>
+        <label>
+          <input  value="forum" type="checkbox" class="input-checkbox">Closing any communal spaces (e.g- gym, game room)
+        </label>
+        
+    </div>
+        </p>
+      <div id="text">
+          <p>Something else? (Please specify)?</p>
+          <textarea cols="75 rows="80" id="coments" name="text" placeholder="Enter your comment here..."></textarea>
+      </div>
+        <button class="submit-button" type="submit" id = "submit">Submit</button>
+    </div>
+    </form>
+</body>
+
+</html>
+</body>
+</html>
